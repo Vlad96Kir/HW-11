@@ -4,7 +4,7 @@ from field import Field
 class Phone(Field):
     def __init__(self, value) -> None:
         super().__init__(value)
-        self.value = value  # Проверка на корректность производится с помощью сеттера
+        self.value = value 
 
     @Field.value.setter
     def value(self, new_value):
