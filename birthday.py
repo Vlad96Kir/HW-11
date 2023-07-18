@@ -1,5 +1,3 @@
-# В файле birthday.py
-
 from field import Field
 from datetime import datetime
 
